@@ -1,0 +1,26 @@
+using System;
+
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        // Примеры объявления переменных с информацией обо мне.
+
+        string name = "Sergey";
+        string lastName = "Sergeev";
+        string gender = "Male";
+        int age = 26;
+        int birthYear = 1995;
+        string city = "Kaliningrad";
+        bool popular = true;
+        string info = name + lastName;
+
+        // Рандомные объявления переменных.
+
+        byte a = 39;
+        sbyte b = -54;
+        float f = 3.92e2f;
+
+    }
+}
